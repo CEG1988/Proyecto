@@ -1,0 +1,16 @@
+<form action="realizar_pedido.php" method="post">
+    <label for="nombre">Nombre completo:</label>
+    <input type="text" id="nombre" name="nombre" required>
+    <label for="direccion">Dirección de envío:</label>
+    <input type="text" id="direccion" name="direccion" required>
+    <label for="telefono">Número de teléfono:</label>
+    <input type="text" id="telefono" name="telefono" required>
+    <label for="productos">Productos:</label>
+    <input type="text" id="productos" name="productos" required>
+    <label for="metodo_pago">Método de pago:</label>
+    <select id="metodo_pago" name="metodo_pago" required>
+        <option value="tarjeta">Tarjeta de crédito</option>
+        <option value="paypal">PayPal</option>
+    </select>
+    <button type="submit">Enviar Pedido</button>
+</form>
